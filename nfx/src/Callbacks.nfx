@@ -1,0 +1,242 @@
+def(2) plt_even(
+self(
+	reftile(0) if(1)
+	reftile(2) else
+	)
+)
+
+def(3) callback(
+	ref(2) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(4) plt_index(
+self(
+	reftile(2) if(nibble(1,0))
+	reftile(4) if(nibble(0,1))
+	reftile(6) if(nibble(0,0))
+	reftile(0) else
+	)
+)	
+
+def(5) callback(
+	ref(4) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(6) pbsinfo(
+	reftile(2) if(7)
+	reftile(0) else
+)
+
+def(7) callback(
+	ref(6) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(8) callback(
+	reftile(_icon) if(CB_LAYOUT) // tile layout
+	ref(1) else		     // graphics chain
+)
+
+def(9) callback(
+	ref(8) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(10) callback(
+	reftile(8) if(CB_LAYOUT) // tile layout
+	ref(1) else		     // graphics chain
+)
+
+def(11) callback(
+	ref(10) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(12) plt_edges(
+	cbr(0) if(0)
+	cbr(2) if(1)
+	cbr(4) if(2)
+	cbr(6) if(3)
+	cbr(8) if(4)
+	cbr(10) if(5)
+	cbr(12) if(6)
+	cbr(14) if(7)
+	cbr(16) if(8)
+	cbr(18) if(9)
+	cbr(20) if(10)
+	cbr(22) if(11)
+	cbr(24) if(12)
+	cbr(26) if(13)
+	cbr(28) if(14)
+	cbr(30) else
+)
+
+def(13) callback(
+	ref(12) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(14) plt_index(
+self(
+	reftile(0) if(nibble(0,0))
+	reftile(2) if(nibble(0,1))
+	reftile(4) if(nibble(0,2))
+	reftile(6) if(nibble(0,3))
+	reftile(8) if(nibble(0,4))
+	reftile(10) if(nibble(0,5))
+	reftile(12) if(nibble(1,0))
+	reftile(14) if(nibble(1,1))
+	reftile(16) if(nibble(1,2))
+	reftile(18) if(nibble(1,3))
+	reftile(20) if(nibble(1,4))
+	reftile(4) if(nibble(2,0))
+	reftile(16) if(nibble(2,1))
+	reftile(6) if(nibble(3,0))
+	reftile(18) if(nibble(3,1))
+	reftile(8) if(nibble(4,0))
+	reftile(20) if(nibble(4,1))
+	reftile(10) if(nibble(5,0))
+	reftile(22) else
+	)
+)	
+
+def(15) callback(
+	ref(14) if(CB_LAYOUT)
+	ref(1) else
+)
+
+def(16) callback(
+	cbr(0) if(CB_AVAILABLE)
+	ref(1) else
+)
+
+makestation(BASIC,default(ref(1)))
+makestation(BASIC_BACK,default(ref(1)))
+makestation(BASIC_FRONT,default(ref(1)))
+makestation(LAMPOSTS,default(ref(1)))
+makestation(LAMPOSTS_BACK,default(ref(1)))
+makestation(LAMPOSTS_FRONT,default(ref(1)))
+makestation(SIGN,default(ref(1)))
+makestation(SIGN_BACK,default(ref(1)))
+makestation(SIGN_FRONT,default(ref(1)))
+makestation(FENCE,default(ref(1)))
+makestation(FENCE_BACK,default(ref(1)))
+makestation(FENCE_FRONT,default(ref(1)))
+makestation(FENCE_LAMPOST,default(ref(1)))
+makestation(FENCE_LAMPOST_BACK,default(ref(1)))
+makestation(FENCE_LAMPOST_FRONT,default(ref(1)))
+makestation(FOOTBRIDGE_ST_DENYS,default(ref(1)))
+makestation(FOOTBRIDGE_ST_DENYS_BACK,default(ref(1)))
+makestation(FOOTBRIDGE_ST_DENYS_FRONT,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER_BACK,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER_FRONT,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER_OPEN,default(ref(3)))
+makestation(BASIC_RAMP_FAR,default(ref(1)))
+makestation(BASIC_RAMP_FAR_BACK,default(ref(1)))
+makestation(BASIC_RAMP_FAR_FRONT,default(ref(1)))
+makestation(BASIC_RAMP_NEAR,default(ref(1)))
+makestation(BASIC_RAMP_NEAR_BACK,default(ref(1)))
+makestation(BASIC_RAMP_NEAR_FRONT,default(ref(1)))
+makestation(BASIC_RAMP_BOTH,default(ref(1)))
+makestation(BASIC_RAMP_BOTH_BACK,default(ref(1)))
+makestation(BASIC_RAMP_BOTH_FRONT,default(ref(1)))
+makestation(LMPST_RAMP_FAR,default(ref(1)))
+makestation(LMPST_RAMP_FAR_BACK,default(ref(1)))
+makestation(LMPST_RAMP_FAR_FRONT,default(ref(1)))
+makestation(LMPST_RAMP_NEAR,default(ref(1)))
+makestation(LMPST_RAMP_NEAR_BACK,default(ref(1)))
+makestation(LMPST_RAMP_NEAR_FRONT,default(ref(1)))
+makestation(LMPST_RAMP_BOTH,default(ref(1)))
+makestation(LMPST_RAMP_BOTH_BACK,default(ref(1)))
+makestation(LMPST_RAMP_BOTH_FRONT,default(ref(1)))
+makestation(LBG_LL_CANOPY_END_BOTH,default(ref(3)))
+makestation(LBG_LL_CANOPY_MID_BOTH,default(ref(3)))
+makestation(LBG_LL_CANOPY_END,default(ref(3)))
+makestation(LBG_LL_CANOPY_MID,default(ref(3)))
+makestation(LBG_LL_CANOPY_2_BACK_BOTH,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_MID_BOTH,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_FRONT_BOTH,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_BACK_BACK,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_MID_R_BACK,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_MID_F_BACK,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_FRONT_BACK,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_BACK_FRONT,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_MID_R_FRONT,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_MID_F_FRONT,default(ref(1)))
+makestation(LBG_LL_CANOPY_2_FRONT_FRONT,default(ref(1)))
+makestation(CHISLEHURST,link(ref(9), MENU) default(ref(3)))
+makestation(HOP_BUILDING_FRONT,link(ref(11), MENU) default(ref(5)))
+makestation(NXG_BUILDING_FRONT,link(ref(11), MENU) default(ref(5)))
+makestation(SPEED_SIGN_FRONT,default(ref(1)))
+makestation(SPEED_SIGN_BACK,default(ref(1)))
+makestation(PIS,default(ref(1)))
+makestation(PIS_BACK,default(ref(1)))
+makestation(PIS_FRONT,default(ref(1)))
+makestation(HOP_BUILDING_WAYP,default(ref(1)))
+makestation(FOOTBRIDGE_WAYP,default(ref(1)))
+makestation(RDH_SHELTER,default(ref(1)))
+makestation(RDH_SHELTER_BACK,default(ref(1)))
+makestation(RDH_SHELTER_FRONT,default(ref(1)))
+makestation(FENCE_EFE,default(ref(1)))
+makestation(FENCE_EFE_BACK,default(ref(1)))
+makestation(FENCE_EFE_FRONT,default(ref(1)))
+makestation(FENCE_EFEF,default(ref(7)))
+makestation(FENCE_EFEF_BACK,default(ref(7)))
+makestation(FENCE_EFEF_FRONT,default(ref(1)))
+makestation(FENCE_ENE,default(ref(1)))
+makestation(FENCE_ENE_BACK,default(ref(1)))
+makestation(FENCE_ENE_FRONT,default(ref(1)))
+makestation(FENCE_ENEF,default(ref(1)))
+makestation(FENCE_ENEF_BACK,default(ref(1)))
+makestation(FENCE_ENEF_FRONT,default(ref(1)))
+makestation(FENCE_FE,default(ref(1)))
+makestation(FENCE_FE_BACK,default(ref(1)))
+makestation(FENCE_FE_FRONT,default(ref(1)))
+makestation(FENCE_FEL,default(ref(1)))
+makestation(FENCE_FEL_BACK,default(ref(1)))
+makestation(FENCE_FEL_FRONT,default(ref(1)))
+makestation(FENCE_NE,default(ref(1)))
+makestation(FENCE_NE_BACK,default(ref(1)))
+makestation(FENCE_NE_FRONT,default(ref(1)))
+makestation(FENCE_NEL,default(ref(1)))
+makestation(FENCE_NEL_BACK,default(ref(1)))
+makestation(FENCE_NEL_FRONT,default(ref(1)))
+makestation(CLASP_2B,default(ref(3)))
+makestation(CLASP_2F,default(ref(3)))
+makestation(CLASP_BACK,link(ref(9), MENU) default(ref(3)))
+makestation(CLASP_FRONT,link(ref(9), MENU) default(ref(3)))
+makestation(SOUTHWARK_TOWER,default(ref(1)))
+makestation(LBG_BUS_STATION,default(ref(16)))
+makestation(FOOTBRIDGE_LONGFIELD,default(ref(1)))
+makestation(FOOTBRIDGE_LONGFIELD_BACK,default(ref(1)))
+makestation(FOOTBRIDGE_LONGFIELD_FRONT,default(ref(1)))
+makestation(FOOTBRIDGE_HOR,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_BACK,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_FRONT,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_L,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_BACK_L,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_FRONT_L,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_S,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_BACK_S,default(ref(1)))
+makestation(FOOTBRIDGE_HOR_FRONT_S,default(ref(1)))
+makestation(SHELTER_HOR,default(ref(1)))
+makestation(SHELTER_HOR_BACK,default(ref(1)))
+makestation(SHELTER_HOR_FRONT,default(ref(1)))
+makestation(NON_TRACK,default(ref(1)))
+makestation(NON_TRACK_FENCE,default(ref(13)))
+makestation(NON_TRACK_HORLEY,default(ref(1)))
+makestation(FOOTBRIDGE_WAYP_HOR,default(ref(1)))
+makestation(MARYLEBONE,default(ref(15)))
+makestation(BASIC_BACK_OVERLAP,default(ref(1)))
+makestation(BASIC_FRONT_OVERLAP,default(ref(1)))
+makestation(LAMPOSTS_BACK_OVERLAP,default(ref(1)))
+makestation(LAMPOSTS_FRONT_OVERLAP,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER_BACK_OVERLAP,default(ref(1)))
+makestation(HITHER_GREEN_SHELTER_FRONT_OVERLAP,default(ref(1)))
+makestation(PIS_BACK_OVERLAP,default(ref(1)))
+makestation(PIS_FRONT_OVERLAP,default(ref(1)))
+makestation(SHELTER_HOR_BACK_OVERLAP,default(ref(1)))
+makestation(SHELTER_HOR_FRONT_OVERLAP,default(ref(1)))

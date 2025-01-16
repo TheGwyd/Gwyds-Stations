@@ -1,0 +1,2074 @@
+layout(BASIC,
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(BASIC_BACK,
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(BASIC_FRONT,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(LAMPOSTS,
+    tile(
+      ground(1012)
+      compcol(10, xyz(0,0,0),dxdydz(16,5,7))
+      compcol(11, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      compcol(12, xyz(0,0,0),dxdydz(5,16,7))
+	  compcol(13, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LAMPOSTS_BACK,
+    tile(
+      ground(1012)
+      compcol(10, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      compcol(12, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(LAMPOSTS_FRONT,
+    tile(
+      ground(1012)
+      compcol(11, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  compcol(13, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+
+layout(SIGN,
+    tile(
+      ground(1012)
+      regular(24, xyz(0,0,0),dxdydz(16,5,7))
+      regular(25, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(26, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(27, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(SIGN_BACK,
+    tile(
+      ground(1012)
+      regular(24, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(26, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(SIGN_FRONT,
+    tile(
+      ground(1012)
+      regular(25, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(27, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE,
+    tile(
+      ground(1012)
+      regular(36, xyz(0,0,0),dxdydz(16,5,7))
+      regular(37, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(38, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(39, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_BACK,
+    tile(
+      ground(1012)
+      regular(36, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(38, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_FRONT,
+    tile(
+      ground(1012)
+      regular(37, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(39, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_LAMPOST,
+    tile(
+      ground(1012)
+      regular(48, xyz(0,0,0),dxdydz(16,5,7))
+      regular(49, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(50, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(51, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_LAMPOST_BACK,
+    tile(
+      ground(1012)
+      regular(48, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(50, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_LAMPOST_FRONT,
+    tile(
+      ground(1012)
+      regular(49, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(51, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FOOTBRIDGE_ST_DENYS,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(225, xyz(5,11,3),dxdydz(8,5,10))
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(224, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+	  regular(227, xyz(11,5,3),dxdydz(5,8,10))
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(226, xyz(11,5,3),dxdydz(5,8,10))
+    )
+)
+layout(FOOTBRIDGE_ST_DENYS_FRONT,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(225, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+	  regular(227, xyz(11,5,3),dxdydz(5,8,10))
+    )
+) 
+layout(FOOTBRIDGE_ST_DENYS_BACK,
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(224, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(226, xyz(11,5,3),dxdydz(5,8,10))
+    )
+)
+
+
+layout(HITHER_GREEN_SHELTER,
+    tile(
+      ground(1012)
+      regular(72, xyz(0,0,0),dxdydz(16,5,7))
+      regular(73, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(74, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(75, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(HITHER_GREEN_SHELTER_BACK,
+    tile(
+      ground(1012)
+      regular(76, xyz(0,0,0),dxdydz(16,5,7))
+      regular(77, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(78, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(79, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(HITHER_GREEN_SHELTER_FRONT,
+    tile(
+      ground(1012)
+      regular(80, xyz(0,0,0),dxdydz(16,5,7))
+      regular(81, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(82, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(83, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(HITHER_GREEN_SHELTER_OPEN,
+    tile(
+      ground(1012)
+      regular(84, xyz(0,0,0),dxdydz(16,5,7))
+      regular(85, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(86, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(87, xyz(11,0,0),dxdydz(5,16,7))
+    )
+    tile(
+      ground(1012)
+      regular(88, xyz(0,0,0),dxdydz(16,5,7))
+      regular(89, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(90, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(91, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+
+layout(BASIC_RAMP_FAR,
+    tile(
+      ground(1012)
+      regular(92, xyz(0,0,0),dxdydz(16,5,7))
+      regular(93, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(94, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(95, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(BASIC_RAMP_FAR_BACK,
+    tile(
+      ground(1012)
+      regular(96, xyz(0,0,0),dxdydz(16,5,7))
+      regular(97, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(98, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(99, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(BASIC_RAMP_FAR_FRONT,
+    tile(
+      ground(1012)
+      regular(100, xyz(0,0,0),dxdydz(16,5,7))
+      regular(101, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(102, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(103, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+
+layout(BASIC_RAMP_NEAR,
+    tile(
+      ground(1012)
+      regular(104, xyz(0,0,0),dxdydz(16,5,7))
+      regular(105, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(106, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(107, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(BASIC_RAMP_NEAR_BACK,
+    tile(
+      ground(1012)
+      regular(108, xyz(0,0,0),dxdydz(16,5,7))
+      regular(109, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(110, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(111, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(BASIC_RAMP_NEAR_FRONT,
+    tile(
+      ground(1012)
+      regular(112, xyz(0,0,0),dxdydz(16,5,7))
+      regular(113, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(114, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(115, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+
+layout(BASIC_RAMP_BOTH,
+    tile(
+      ground(1012)
+      regular(116, xyz(0,0,0),dxdydz(16,5,7))
+      regular(117, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(118, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(119, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(BASIC_RAMP_BOTH_BACK,
+    tile(
+      ground(1012)
+      regular(120, xyz(0,0,0),dxdydz(16,5,7))
+      regular(121, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(122, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(123, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(BASIC_RAMP_BOTH_FRONT,
+    tile(
+      ground(1012)
+      regular(124, xyz(0,0,0),dxdydz(16,5,7))
+      regular(125, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(126, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(127, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LMPST_RAMP_FAR,
+    tile(
+      ground(1012)
+      regular(128, xyz(0,0,0),dxdydz(16,5,7))
+      regular(129, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(130, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(131, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LMPST_RAMP_FAR_BACK,
+    tile(
+      ground(1012)
+      regular(132, xyz(0,0,0),dxdydz(16,5,7))
+      regular(133, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(134, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(135, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(LMPST_RAMP_FAR_FRONT,
+    tile(
+      ground(1012)
+      regular(136, xyz(0,0,0),dxdydz(16,5,7))
+      regular(137, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(138, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(139, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+
+layout(LMPST_RAMP_NEAR,
+    tile(
+      ground(1012)
+      regular(140, xyz(0,0,0),dxdydz(16,5,7))
+      regular(141, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(142, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(143, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LMPST_RAMP_NEAR_BACK,
+    tile(
+      ground(1012)
+      regular(144, xyz(0,0,0),dxdydz(16,5,7))
+      regular(145, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(146, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(147, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(LMPST_RAMP_NEAR_FRONT,
+    tile(
+      ground(1012)
+      regular(148, xyz(0,0,0),dxdydz(16,5,7))
+      regular(149, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(150, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(151, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+
+layout(LMPST_RAMP_BOTH,
+    tile(
+      ground(1012)
+      regular(152, xyz(0,0,0),dxdydz(16,5,7))
+      regular(153, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(154, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(155, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LMPST_RAMP_BOTH_BACK,
+    tile(
+      ground(1012)
+      regular(156, xyz(0,0,0),dxdydz(16,5,7))
+      regular(157, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(158, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(159, xyz(11,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(LMPST_RAMP_BOTH_FRONT,
+    tile(
+      ground(1012)
+      regular(160, xyz(0,0,0),dxdydz(16,5,7))
+      regular(161, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(162, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(163, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(LBG_LL_CANOPY_END_BOTH,
+    tile(
+      ground(1012)
+      regular(168, xyz(0,0,0),dxdydz(16,5,7))
+      regular(169, xyz(0,11,0),dxdydz(16,5,7))
+      regular(176, xyz(0,0,15),dxdydz(16,16,16))
+      glass(177, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(170, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(171, xyz(11,0,0),dxdydz(5,16,7))
+      regular(178, xyz(0,0,15),dxdydz(16,16,16))
+      glass(179, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1012)
+      regular(164, xyz(0,0,0),dxdydz(16,5,7))
+      regular(165, xyz(0,11,0),dxdydz(16,5,7))
+      regular(172, xyz(0,0,15),dxdydz(16,16,16))
+      glass(173, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(166, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(167, xyz(11,0,0),dxdydz(5,16,7))
+      regular(174, xyz(0,0,15),dxdydz(16,16,16))
+      glass(175, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+layout(LBG_LL_CANOPY_MID_BOTH,
+    tile(
+      ground(1012)
+      regular(168, xyz(0,0,0),dxdydz(16,5,7))
+      regular(169, xyz(0,11,0),dxdydz(16,5,7))
+      regular(184, xyz(0,0,15),dxdydz(16,16,16))
+      glass(185, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(170, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(171, xyz(11,0,0),dxdydz(5,16,7))
+      regular(186, xyz(0,0,15),dxdydz(16,16,16))
+      glass(187, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1012)
+      regular(164, xyz(0,0,0),dxdydz(16,5,7))
+      regular(165, xyz(0,11,0),dxdydz(16,5,7))
+      regular(180, xyz(0,0,15),dxdydz(16,16,16))
+      glass(181, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(166, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(167, xyz(11,0,0),dxdydz(5,16,7))
+      regular(182, xyz(0,0,15),dxdydz(16,16,16))
+      glass(183, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+layout(LBG_LL_CANOPY_END,
+    tile(
+      ground(1012)
+      regular(190, xyz(0,0,0),dxdydz(16,5,7))
+      regular(169, xyz(0,11,0),dxdydz(16,5,7))
+      regular(176, xyz(0,0,15),dxdydz(16,16,16))
+      glass(177, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(191, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(171, xyz(11,0,0),dxdydz(5,16,7))
+      regular(178, xyz(0,0,15),dxdydz(16,16,16))
+      glass(179, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1012)
+      regular(164, xyz(0,0,0),dxdydz(16,5,7))
+      regular(188, xyz(0,11,0),dxdydz(16,5,7))
+      regular(172, xyz(0,0,15),dxdydz(16,16,16))
+      glass(173, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(166, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(189, xyz(11,0,0),dxdydz(5,16,7))
+      regular(174, xyz(0,0,15),dxdydz(16,16,16))
+      glass(175, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+layout(LBG_LL_CANOPY_MID,
+    tile(
+      ground(1012)
+      regular(190, xyz(0,0,0),dxdydz(16,5,7))
+      regular(169, xyz(0,11,0),dxdydz(16,5,7))
+      regular(184, xyz(0,0,15),dxdydz(16,16,16))
+      glass(185, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(191, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(171, xyz(11,0,0),dxdydz(5,16,7))
+      regular(186, xyz(0,0,15),dxdydz(16,16,16))
+      glass(187, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1012)
+      regular(164, xyz(0,0,0),dxdydz(16,5,7))
+      regular(188, xyz(0,11,0),dxdydz(16,5,7))
+      regular(180, xyz(0,0,15),dxdydz(16,16,16))
+      glass(181, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(166, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(189, xyz(11,0,0),dxdydz(5,16,7))
+      regular(182, xyz(0,0,15),dxdydz(16,16,16))
+      glass(183, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+
+layout(LBG_LL_CANOPY_2_BACK_BOTH,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(196, xyz(0,0,0),dxdydz(16,0,16))
+      regular(200, xyz(0,0,15),dxdydz(16,16,16))
+      glass(201, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(198, xyz(0,0,0),dxdydz(0,16,16))
+      regular(202, xyz(0,0,15),dxdydz(16,16,16))
+      glass(203, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_MID_BOTH,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(200, xyz(0,0,15),dxdydz(16,16,16))
+      glass(201, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(202, xyz(0,0,15),dxdydz(16,16,16))
+      glass(203, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_FRONT_BOTH,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(197, xyz(0,16,0),dxdydz(16,0,16))
+      regular(200, xyz(0,0,15),dxdydz(16,16,16))
+      glass(201, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(199, xyz(16,0,0),dxdydz(0,16,16))
+      regular(202, xyz(0,0,15),dxdydz(16,16,16))
+      glass(203, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+
+layout(LBG_LL_CANOPY_2_BACK_BACK,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(196, xyz(0,0,0),dxdydz(16,0,16))
+      regular(204, xyz(0,0,15),dxdydz(16,16,16))
+      glass(205, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+      regular(198, xyz(0,0,0),dxdydz(0,16,16))
+      regular(206, xyz(0,0,15),dxdydz(16,16,16))
+      glass(207, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_MID_R_BACK,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(204, xyz(0,0,15),dxdydz(16,16,16))
+      glass(205, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+      regular(206, xyz(0,0,15),dxdydz(16,16,16))
+      glass(207, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_MID_F_BACK,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(208, xyz(0,0,15),dxdydz(16,16,16))
+      glass(209, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+      regular(210, xyz(0,0,15),dxdydz(16,16,16))
+      glass(211, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_FRONT_BACK,
+    tile(
+      ground(1012)
+      regular(192, xyz(0,0,0),dxdydz(16,5,7))
+      regular(197, xyz(0,16,0),dxdydz(16,0,16))
+      regular(208, xyz(0,0,15),dxdydz(16,16,16))
+      glass(209, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(194, xyz(0,0,0),dxdydz(5,16,7))
+      regular(199, xyz(16,0,0),dxdydz(0,16,16))
+      regular(210, xyz(0,0,15),dxdydz(16,16,16))
+      glass(211, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+
+layout(LBG_LL_CANOPY_2_BACK_FRONT,
+    tile(
+      ground(1012)
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(196, xyz(0,0,0),dxdydz(16,0,16))
+      regular(204, xyz(0,0,15),dxdydz(16,16,16))
+      glass(205, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(198, xyz(0,0,0),dxdydz(0,16,16))
+      regular(206, xyz(0,0,15),dxdydz(16,16,16))
+      glass(207, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_MID_R_FRONT,
+    tile(
+      ground(1012)
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(204, xyz(0,0,15),dxdydz(16,16,16))
+      glass(205, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(206, xyz(0,0,15),dxdydz(16,16,16))
+      glass(207, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_MID_F_FRONT,
+    tile(
+      ground(1012)
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(208, xyz(0,0,15),dxdydz(16,16,16))
+      glass(209, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(210, xyz(0,0,15),dxdydz(16,16,16))
+      glass(211, xyz(0,0,15),dxdydz(16,16,16))
+    )
+) 
+layout(LBG_LL_CANOPY_2_FRONT_FRONT,
+    tile(
+      ground(1012)
+      regular(193, xyz(0,11,0),dxdydz(16,5,7))
+      regular(197, xyz(0,15,0),dxdydz(16,0,16))
+      regular(208, xyz(0,0,16),dxdydz(16,16,16))
+      glass(209, xyz(0,0,15),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+	  regular(195, xyz(11,0,0),dxdydz(5,16,7))
+      regular(199, xyz(16,0,0),dxdydz(0,16,16))
+      regular(210, xyz(0,0,15),dxdydz(16,16,16))
+      glass(211, xyz(0,0,15),dxdydz(16,16,16))
+    )
+)
+layout(CHISLEHURST,
+    tile(
+      ground(1012)
+      regular(214, xyz(0,0,0),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(213, xyz(0,0,0),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1012)
+      regular(212, xyz(0,0,0),dxdydz(16,16,16))
+    )
+    tile(
+      ground(1011)
+      regular(215, xyz(0,0,0),dxdydz(16,16,16))
+    )
+    tile(_icon,
+      ground(258, CUSTOM)
+    )
+    tile(
+      ground(257, CUSTOM)
+    )
+)
+layout(HOP_BUILDING_FRONT,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(222, xyz(1,1,12),dxdydz(16,11,8))
+      regular(218, xyz(0,0,11),dxdydz(1,11,8))
+    )
+    tile(
+      ground(1011)
+     regular(3, xyz(11,0,0),dxdydz(5,16,7))
+      regular(220, xyz(1,1,12),dxdydz(11,16,8))
+      regular(216, xyz(0,0,11),dxdydz(11,1,8))
+    )
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(223, xyz(1,6,12),dxdydz(16,11,8))
+      regular(219, xyz(0,5,11),dxdydz(1,11,8))
+    )
+    tile(
+      ground(1011)
+     regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(221, xyz(6,1,12),dxdydz(11,16,8))
+      regular(217, xyz(5,0,11),dxdydz(11,1,8))
+    )
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(225, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+	  regular(227, xyz(11,5,3),dxdydz(5,8,10))
+    )
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(224, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(226, xyz(11,5,3),dxdydz(5,8,10))
+    )
+    tile(
+      ground(273, CUSTOM)
+    )
+    tile(
+      ground(274, CUSTOM)
+    )
+)
+layout(NXG_BUILDING_FRONT,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(234, xyz(1,1,12),dxdydz(16,11,8))
+      regular(230, xyz(0,0,11),dxdydz(1,11,8))
+    )
+    tile(
+      ground(1011)
+     regular(3, xyz(11,0,0),dxdydz(5,16,7))
+      regular(232, xyz(1,1,12),dxdydz(11,16,8))
+      regular(228, xyz(0,0,11),dxdydz(11,1,8))
+    )
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(235, xyz(1,6,12),dxdydz(16,11,8))
+      regular(231, xyz(0,5,11),dxdydz(1,11,8))
+    )
+    tile(
+      ground(1011)
+     regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(233, xyz(6,1,12),dxdydz(11,16,8))
+      regular(229, xyz(5,0,11),dxdydz(11,1,8))
+    )
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(225, xyz(3,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+	  regular(227, xyz(11,3,3),dxdydz(5,8,10))
+    )
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(224, xyz(3,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+      regular(226, xyz(11,3,3),dxdydz(5,8,10))
+    )
+    tile(
+      ground(275, CUSTOM)
+    )
+    tile(
+      ground(276, CUSTOM)
+    )
+)
+
+layout(SPEED_SIGN_FRONT,
+    tile(
+      ground(1012)
+      regular(236, xyz(8,3,0),dxdydz(1,1,7))
+    )
+    tile(
+      ground(1011)
+      regular(237, xyz(13,8,0),dxdydz(1,1,7))
+    )
+)
+layout(SPEED_SIGN_BACK,
+    tile(
+      ground(1012)
+      regular(238, xyz(8,13,0),dxdydz(1,1,7))
+    )
+    tile(
+      ground(1011)
+      regular(239, xyz(3,8,0),dxdydz(1,1,7))
+    )
+)
+
+layout(PIS,
+    tile(
+      ground(1012)
+      regular(4, xyz(0,0,0),dxdydz(16,5,7))
+      regular(5, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(6, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(7, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(PIS_BACK,
+    tile(
+      ground(1012)
+      regular(4, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(6, xyz(0,0,0),dxdydz(5,16,7))
+    )
+)
+layout(PIS_FRONT,
+    tile(
+      ground(1012)
+      regular(5, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(7, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(HOP_BUILDING_WAYP,
+    tile(
+      ground(1012)
+      regular(222, xyz(1,17,12),dxdydz(16,11,8))
+      regular(218, xyz(0,16,11),dxdydz(1,11,8))
+      regular(223, xyz(1,6,12),dxdydz(16,11,8))
+      regular(219, xyz(0,5,11),dxdydz(1,11,8))
+    )
+    tile(
+      ground(1011)
+      regular(220, xyz(17,1,12),dxdydz(11,16,8))
+      regular(216, xyz(16,0,11),dxdydz(11,1,8))
+      regular(221, xyz(6,1,12),dxdydz(11,16,8))
+      regular(217, xyz(5,0,11),dxdydz(11,1,8))
+    )
+)
+
+layout(FOOTBRIDGE_WAYP,
+    tile(
+      ground(1012)
+      regular(8, xyz(5,11,3),dxdydz(8,5,10))
+    )
+    tile(
+      ground(1011)
+      regular(9, xyz(11,5,3),dxdydz(5,8,10))
+    )
+)
+
+layout(RDH_SHELTER,
+    tile(
+      ground(1012)
+      regular(240, xyz(0,0,0),dxdydz(16,5,7))
+      glass(244, xyz(0,0,0),dxdydz(16,5,7))
+      regular(241, xyz(0,11,0),dxdydz(16,5,7))
+      glass(245, xyz(0,12,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(242, xyz(0,0,0),dxdydz(5,16,7))
+      glass(246, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(243, xyz(11,0,0),dxdydz(5,16,7))
+      glass(247, xyz(12,0,0),dxdydz(5,16,7))
+    )
+)
+layout(RDH_SHELTER_BACK,
+    tile(
+      ground(1012)
+      regular(240, xyz(0,0,0),dxdydz(16,5,7))
+      glass(244, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(242, xyz(0,0,0),dxdydz(5,16,7))
+      glass(246, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(RDH_SHELTER_FRONT,
+    tile(
+      ground(1012)
+      regular(241, xyz(0,11,0),dxdydz(16,5,7))
+      glass(245, xyz(0,12,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(243, xyz(11,0,0),dxdydz(5,16,7))
+      glass(247, xyz(12,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_EFE,
+    tile(
+      ground(1012)
+      regular(14, xyz(0,0,0),dxdydz(16,5,7))
+      regular(15, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(16, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(17, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_EFE_BACK,
+    tile(
+      ground(1012)
+      regular(14, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(16, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_EFE_FRONT,
+    tile(
+      ground(1012)
+      regular(15, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(17, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_EFEF,
+    tile(
+      ground(1012)
+      regular(18, xyz(0,0,0),dxdydz(16,5,7))
+      regular(19, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(20, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(21, xyz(11,0,0),dxdydz(5,16,7))
+    )
+    tile(
+      ground(1012)
+      regular(22, xyz(0,0,0),dxdydz(16,5,7))
+      regular(19, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(23, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(21, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_EFEF_BACK,
+    tile(
+      ground(1012)
+      regular(18, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(20, xyz(0,0,0),dxdydz(5,16,7))
+    )
+    tile(
+      ground(1012)
+      regular(22, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(23, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_EFEF_FRONT,
+    tile(
+      ground(1012)
+      regular(19, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(21, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_ENE,
+    tile(
+      ground(1012)
+      regular(28, xyz(0,0,0),dxdydz(16,5,7))
+      regular(29, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(30, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(31, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_ENE_BACK,
+    tile(
+      ground(1012)
+      regular(28, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(30, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_ENE_FRONT,
+    tile(
+      ground(1012)
+      regular(29, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(31, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_ENEF,
+    tile(
+      ground(1012)
+      regular(32, xyz(0,0,0),dxdydz(16,5,7))
+      regular(33, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(34, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(35, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_ENEF_BACK,
+    tile(
+      ground(1012)
+      regular(32, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(34, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_ENEF_FRONT,
+    tile(
+      ground(1012)
+      regular(33, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(35, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_FE,
+    tile(
+      ground(1012)
+      regular(40, xyz(0,0,0),dxdydz(16,5,7))
+      regular(41, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(42, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(43, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_FE_BACK,
+    tile(
+      ground(1012)
+      regular(40, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(42, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_FE_FRONT,
+    tile(
+      ground(1012)
+      regular(41, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(43, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_FEL,
+    tile(
+      ground(1012)
+      regular(44, xyz(0,0,0),dxdydz(16,5,7))
+      regular(45, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(46, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(47, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_FEL_BACK,
+    tile(
+      ground(1012)
+      regular(44, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(46, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_FEL_FRONT,
+    tile(
+      ground(1012)
+      regular(45, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(47, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_NE,
+    tile(
+      ground(1012)
+      regular(52, xyz(0,0,0),dxdydz(16,5,7))
+      regular(53, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(54, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(55, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_NE_BACK,
+    tile(
+      ground(1012)
+      regular(52, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(54, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_NE_FRONT,
+    tile(
+      ground(1012)
+      regular(53, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(55, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(FENCE_NEL,
+    tile(
+      ground(1012)
+      regular(56, xyz(0,0,0),dxdydz(16,5,7))
+      regular(57, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(58, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(59, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(FENCE_NEL_BACK,
+    tile(
+      ground(1012)
+      regular(56, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(58, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(FENCE_NEL_FRONT,
+    tile(
+      ground(1012)
+      regular(57, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(59, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(CLASP_2B,
+    tile(
+      ground(1012)
+      regular(252, xyz(0,0,0),dxdydz(16,5,10))
+      regular(11, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(254, xyz(0,0,0),dxdydz(5,16,10))
+	  regular(13, xyz(11,0,0),dxdydz(5,16,7))
+    )
+    tile(
+      ground(1012)
+      regular(248, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(
+      ground(1011)
+      regular(250, xyz(0,0,0),dxdydz(16,16,10))
+    )
+)
+layout(CLASP_2F,
+    tile(
+      ground(1012)
+      regular(249, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(
+      ground(1011)
+      regular(251, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(
+      ground(1012)
+      regular(10, xyz(0,0,0),dxdydz(16,5,10))
+      regular(253, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(12, xyz(0,0,0),dxdydz(5,16,10))
+	  regular(255, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(CLASP_BACK,
+    tile(
+      ground(1012)
+      regular(252, xyz(0,0,0),dxdydz(16,5,10))
+    )
+    tile(
+      ground(1011)
+      regular(254, xyz(0,0,0),dxdydz(5,16,10))
+    )
+    tile(
+      ground(1012)
+      regular(248, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(
+      ground(1011)
+      regular(250, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(_icon,
+      ground(271, CUSTOM)
+    )
+    tile(
+      ground(272, CUSTOM)
+    )
+)
+layout(CLASP_FRONT,
+    tile(
+      ground(1012)
+      regular(249, xyz(0,0,0),dxdydz(16,16,10))//249
+    )
+    tile(
+      ground(1011)
+      regular(251, xyz(0,0,0),dxdydz(16,16,10))//251
+    )
+    tile(
+      ground(1012)
+      regular(253, xyz(0,11,0),dxdydz(16,5,7))//253
+    )
+    tile(
+      ground(1011)
+	  regular(255, xyz(11,0,0),dxdydz(5,16,7))//255
+    )
+    tile(_icon,
+      ground(256, CUSTOM)
+    )
+    tile(
+      ground(270, CUSTOM)
+    )
+)
+layout(SOUTHWARK_TOWER,
+    tile(
+      ground(1012)
+      regular(259, xyz(0,0,0),dxdydz(32,32,90))
+    )
+    tile(
+      ground(1011)
+      regular(259, xyz(0xF0,0xF0,0),dxdydz(32,32,90))
+    )
+)
+layout(LBG_BUS_STATION,
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0xB0,0),dxdydz(65,112,20))
+    )
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0,0),dxdydz(65,112,20))
+    )
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0xB0,0),dxdydz(65,112,20))
+    )
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0,0),dxdydz(65,112,20))
+    )
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0xB0,0),dxdydz(65,112,20))
+    )
+    tile(
+      ground(1012)
+      regular(260, xyz(0,0,0),dxdydz(65,112,20))
+    )
+)
+
+
+layout(FOOTBRIDGE_LONGFIELD,
+    tile(
+      ground(1012)
+      regular(264, xyz(0,0,0),dxdydz(16,5,16))
+      regular(265, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+      regular(266, xyz(0,0,0),dxdydz(5,16,16))
+	  regular(267, xyz(11,0,0),dxdydz(5,16,16))
+    )
+)
+layout(FOOTBRIDGE_LONGFIELD_BACK,
+    tile(
+      ground(1012)
+      regular(264, xyz(0,0,0),dxdydz(16,5,16))
+      regular(269, xyz(6,4,10),dxdydz(2,12,7))
+    )
+    tile(
+      ground(1011)
+      regular(266, xyz(0,0,0),dxdydz(5,16,16))
+      regular(268, xyz(4,6,10),dxdydz(12,2,7))
+    )
+) 
+layout(FOOTBRIDGE_LONGFIELD_FRONT,
+    tile(
+      ground(1012)
+      regular(265, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+	  regular(267, xyz(11,0,0),dxdydz(5,16,16))
+    )
+) 
+
+
+layout(FOOTBRIDGE_HOR,
+    tile(
+      ground(1012)
+      regular(283, xyz(0,0,0),dxdydz(16,5,16))
+      regular(284, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+      regular(285, xyz(0,0,0),dxdydz(5,16,16))
+	  regular(286, xyz(11,0,0),dxdydz(5,16,16))
+    )
+)
+layout(FOOTBRIDGE_HOR_BACK,
+    tile(
+      ground(1012)
+      regular(283, xyz(0,0,0),dxdydz(16,5,16))
+      regular(282, xyz(6,4,10),dxdydz(2,12,7))
+    )
+    tile(
+      ground(1011)
+      regular(285, xyz(0,0,0),dxdydz(5,16,16))
+      regular(281, xyz(4,6,10),dxdydz(12,2,7))
+    )
+) 
+layout(FOOTBRIDGE_HOR_FRONT,
+    tile(
+      ground(1012)
+      regular(284, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+	  regular(286, xyz(11,0,0),dxdydz(5,16,16))
+    )
+) 
+
+layout(FOOTBRIDGE_HOR_L,
+    tile(
+      ground(1012)
+      regular(277, xyz(0,0,0),dxdydz(16,5,16))
+      regular(278, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+      regular(279, xyz(0,0,0),dxdydz(5,16,16))
+	  regular(280, xyz(11,0,0),dxdydz(5,16,16))
+    )
+)
+layout(FOOTBRIDGE_HOR_BACK_L,
+    tile(
+      ground(1012)
+      regular(277, xyz(0,0,0),dxdydz(16,5,16))
+      regular(282, xyz(6,4,10),dxdydz(2,12,7))
+    )
+    tile(
+      ground(1011)
+      regular(279, xyz(0,0,0),dxdydz(5,16,16))
+      regular(281, xyz(4,6,10),dxdydz(12,2,7))
+    )
+) 
+layout(FOOTBRIDGE_HOR_FRONT_L,
+    tile(
+      ground(1012)
+      regular(278, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+	  regular(280, xyz(11,0,0),dxdydz(5,16,16))
+    )
+) 
+
+layout(FOOTBRIDGE_HOR_S,
+    tile(
+      ground(1012)
+      regular(287, xyz(0,0,0),dxdydz(16,5,16))
+      regular(288, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+      regular(289, xyz(0,0,0),dxdydz(5,16,16))
+	  regular(290, xyz(11,0,0),dxdydz(5,16,16))
+    )
+)
+layout(FOOTBRIDGE_HOR_BACK_S,
+    tile(
+      ground(1012)
+      regular(287, xyz(0,0,0),dxdydz(16,5,16))
+      regular(282, xyz(6,4,10),dxdydz(2,12,7))
+    )
+    tile(
+      ground(1011)
+      regular(289, xyz(0,0,0),dxdydz(5,16,16))
+      regular(281, xyz(4,6,10),dxdydz(12,2,7))
+    )
+) 
+layout(FOOTBRIDGE_HOR_FRONT_S,
+    tile(
+      ground(1012)
+      regular(288, xyz(0,11,0),dxdydz(16,5,16))
+    )
+    tile(
+      ground(1011)
+	  regular(290, xyz(11,0,0),dxdydz(5,16,16))
+    )
+) 
+layout(SHELTER_HOR,
+    tile(
+      ground(1012)
+      regular(291, xyz(0,0,0),dxdydz(16,5,7))
+      regular(292, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(293, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(294, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+layout(SHELTER_HOR_BACK,
+    tile(
+      ground(1012)
+      regular(291, xyz(0,0,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(293, xyz(0,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(SHELTER_HOR_FRONT,
+    tile(
+      ground(1012)
+      regular(292, xyz(0,11,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(294, xyz(11,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(NON_TRACK,
+    tile(
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,7))
+    )
+)
+
+layout(NON_TRACK_FENCE,
+    tile(//0
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+    )
+    tile(//2
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+    )
+    tile(//4
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+    )
+    tile(//6
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+    )
+    tile(//8
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(9,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(//10
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(//12
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(//14
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(//16
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//18
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//20
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//22
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//24
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//26
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//28
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(//30
+      ground(1012)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(295, xyz(0,0,0),dxdydz(16,16,10))
+	  regular(297, xyz(0,0,0),dxdydz(16,0,7))
+	  regular(298, xyz(16,0,0),dxdydz(0,16,7))
+	  regular(297, xyz(0,16,0),dxdydz(16,0,7))
+	  regular(298, xyz(0,0,0),dxdydz(0,16,7))
+    )
+)
+
+layout(NON_TRACK_HORLEY,
+    tile(
+      ground(1012)
+      regular(296, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(296, xyz(0,0,0),dxdydz(16,16,7))
+    )
+)
+
+layout(FOOTBRIDGE_WAYP_HOR,
+    tile(
+      ground(1012)
+      regular(300, xyz(0,0,3),dxdydz(5,16,10))
+    )
+    tile(
+      ground(1011)
+      regular(299, xyz(0,0,3),dxdydz(16,5,10))
+    )
+)
+
+layout(MARYLEBONE,
+    tile(//1x
+      ground(1012)
+      regular(301, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(301, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//2x
+      ground(1012)
+      regular(307, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(302, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//3
+      ground(1012)
+      regular(303, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(303, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//4
+      ground(1012)
+      regular(304, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(304, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//5
+      ground(1012)
+      regular(305, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(305, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//6
+      ground(1012)
+      regular(306, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(306, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//7
+      ground(1012)
+      regular(302, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(307, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//8
+      ground(1012)
+      regular(308, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(308, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//9
+      ground(1012)
+      regular(309, xyz(0,0,0),dxdydz(16,16,7))
+      regular(313, xyz(5,14,8),dxdydz(30,10,6))
+    )
+    tile(
+      ground(1011)
+      regular(309, xyz(0,0,0),dxdydz(16,16,7))
+      regular(313, xyz(5,14,8),dxdydz(30,10,6))
+    )
+    tile(//10
+      ground(1011)
+      regular(310, xyz(0,0,0),dxdydz(16,16,7))
+      regular(313, xyz(0xF5,14,8),dxdydz(30,10,6))
+    )
+    tile(
+      ground(1011)
+      regular(310, xyz(0,0,0),dxdydz(16,16,7))
+      regular(313, xyz(0xF5,14,8),dxdydz(30,10,6))
+    )
+    tile(//11
+      ground(1012)
+      regular(311, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(311, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(//12
+      ground(1012)
+      regular(312, xyz(0,0,0),dxdydz(16,16,7))
+    )
+    tile(
+      ground(1011)
+      regular(312, xyz(0,0,0),dxdydz(16,16,7))
+    )
+)
+
+
+layout(BASIC_BACK_OVERLAP,
+    tile(
+      ground(1012)
+      regular(0, xyz(0,0,0),dxdydz(16,5,7))
+      regular(1, xyz(0,0xFB,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(2, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(3, xyz(0xFB,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(BASIC_FRONT_OVERLAP,
+    tile(
+      ground(1012)
+      regular(1, xyz(0,11,0),dxdydz(16,5,7))
+      regular(0, xyz(0,16,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(3, xyz(11,0,0),dxdydz(5,16,7))
+      regular(2, xyz(16,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(LAMPOSTS_BACK_OVERLAP,
+    tile(
+      ground(1012)
+      compcol(10, xyz(0,0,0),dxdydz(16,5,7))
+      compcol(11, xyz(0,0xFB,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      compcol(12, xyz(0,0,0),dxdydz(5,16,7))
+	  compcol(13, xyz(0xFB,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(LAMPOSTS_FRONT_OVERLAP,
+    tile(
+      ground(1012)
+      compcol(11, xyz(0,11,0),dxdydz(16,5,7))
+      compcol(10, xyz(0,16,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  compcol(13, xyz(11,0,0),dxdydz(5,16,7))
+      compcol(12, xyz(16,0,0),dxdydz(5,16,7))
+    )
+) 
+
+layout(HITHER_GREEN_SHELTER_BACK_OVERLAP,
+    tile(
+      ground(1012)
+      regular(76, xyz(0,0,0),dxdydz(16,5,7))
+      regular(81, xyz(0,0xFB,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(78, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(83, xyz(0xFB,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(HITHER_GREEN_SHELTER_FRONT_OVERLAP,
+    tile(
+      ground(1012)
+      regular(81, xyz(0,11,0),dxdydz(16,5,7))
+      regular(76, xyz(0,16,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(83, xyz(11,0,0),dxdydz(5,16,7))
+      regular(78, xyz(0,16,0),dxdydz(5,16,7))
+    )
+)
+
+layout(PIS_BACK_OVERLAP,
+    tile(
+      ground(1012)
+      regular(4, xyz(0,0,0),dxdydz(16,5,7))
+      regular(5, xyz(0,0xFB,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(6, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(7, xyz(0xFB,0,0),dxdydz(5,16,7))
+    )
+)
+layout(PIS_FRONT_OVERLAP,
+    tile(
+      ground(1012)
+      regular(5, xyz(0,11,0),dxdydz(16,5,7))
+      regular(4, xyz(0,16,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(7, xyz(11,0,0),dxdydz(5,16,7))
+      regular(6, xyz(16,0,0),dxdydz(5,16,7))
+    )
+)
+
+layout(SHELTER_HOR_BACK_OVERLAP,
+    tile(
+      ground(1012)
+      regular(291, xyz(0,0,0),dxdydz(16,5,7))
+      regular(292, xyz(0,0xFB,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+      regular(293, xyz(0,0,0),dxdydz(5,16,7))
+	  regular(294, xyz(0xFB,0,0),dxdydz(5,16,7))
+    )
+) 
+layout(SHELTER_HOR_FRONT_OVERLAP,
+    tile(
+      ground(1012)
+      regular(292, xyz(0,11,0),dxdydz(16,5,7))
+      regular(291, xyz(0,16,0),dxdydz(16,5,7))
+    )
+    tile(
+      ground(1011)
+	  regular(294, xyz(11,0,0),dxdydz(5,16,7))
+      regular(293, xyz(0,16,0),dxdydz(5,16,7))
+    )
+)

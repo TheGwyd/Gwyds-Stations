@@ -1,0 +1,40 @@
+Key:
+
+x = not done but will do
+/ = done
+? = might do
+
+
+Stations:
+
+? - Bristol Temple Meads
+x - Crewe
+x - Clapham Junction
+x - London Broad Street
+? - London Paddington
+? - Birmingham New Street (Modern)
+? - Glasgow Central
+? - Leeds (Modern)
+? - Shrewsbury 
+? - Camden Road
+? - Blackfriars
+x - Guildford
+? - Taunton
+
+
+Platform Decorations:
+x - Sign
+x - Sign with fenced end
+/ - End ramp
+/ - End ramp with fenced end
+x - Dot Matrix board with bus-styled shelter
+x - Dot Matrix board with sign
+x - Victorian shelter
+x - Victorian shelter with stairs 
+x - Victorian shelter with footbridge
+x - Footbridge (open)
+? - Help point with bus styled shelter
+? - Timetable board
+
+Non paltform decorations:
+x - BR Station Sign with subway staircase (Guildford style)

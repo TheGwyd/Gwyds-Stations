@@ -1,0 +1,740 @@
+definestation(BASIC,"Basic platform",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_BACK,"Basic platform - Back",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_FRONT,"Basic platform - Front",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LAMPOSTS,"Basic platform with red lamposts",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LAMPOSTS_BACK,"Basic platform with red lamposts - Back",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LAMPOSTS_FRONT,"Basic platform with red lamposts - Front",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(SIGN,"Basic platform with signs",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SIGN_BACK,"Basic platform with signs - Back",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SIGN_FRONT,"Basic platform with signs - Front",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE,"Basic platform with back wall",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_BACK,"Basic platform with back wall - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_FRONT,"Basic platform with back wall - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_LAMPOST,"Basic platform with back wall and lamposts",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_LAMPOST_BACK,"Basic platform with back wall and lamposts - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_LAMPOST_FRONT,"Basic platform with back wall and lamposts - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FOOTBRIDGE_ST_DENYS,"Classic Footbridge",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_ST_DENYS_BACK,"Classic Footbridge - Back",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_ST_DENYS_FRONT,"Classic Footbridge - Front",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(HITHER_GREEN_SHELTER,"60s(?) style shelter",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HITHER_GREEN_SHELTER_BACK,"60s(?) style shelter - Back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HITHER_GREEN_SHELTER_FRONT,"60s(?) style shelter - Front",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HITHER_GREEN_SHELTER_OPEN,"60s(?) style shelter - open back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths({2, 4, 6, 8})
+	exclude_lengths(8)
+)
+
+definestation(BASIC_RAMP_FAR,"Basic end ramp (far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_FAR_BACK,"Basic end ramp (far end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_FAR_FRONT,"Basic end ramp (far end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(BASIC_RAMP_NEAR,"Basic end ramp (ner end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_NEAR_BACK,"Basic end ramp (ner end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_NEAR_FRONT,"Basic end ramp (ner end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(BASIC_RAMP_BOTH,"Basic end ramp (ner end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_BOTH_BACK,"Basic end ramp (ner end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_RAMP_BOTH_FRONT,"Basic end ramp (ner end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LMPST_RAMP_FAR,"End ramp with lamposts (far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_FAR_BACK,"End ramp with lamposts (far end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_FAR_FRONT,"End ramp with lamposts (far end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LMPST_RAMP_NEAR,"End ramp with lamposts (ner end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_NEAR_BACK,"End ramp with lamposts (ner end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_NEAR_FRONT,"End ramp with lamposts (ner end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LMPST_RAMP_BOTH,"End ramp with lamposts (ner end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_BOTH_BACK,"End ramp with lamposts (ner end) - Back",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LMPST_RAMP_BOTH_FRONT,"End ramp with lamposts (ner end) - Front",
+	class(NSEE)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LBG_LL_CANOPY_END_BOTH,"Terminus Canopy (End Glass)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths({2, 4, 6, 8})
+	exclude_lengths(8)
+)
+definestation(LBG_LL_CANOPY_END,"Terminus Canopy (End Glass)",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths({2, 4, 6, 8})
+	exclude_lengths(8)
+)
+definestation(LBG_LL_CANOPY_MID_BOTH,"Terminus Canopy",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths({2, 4, 6, 8})
+	exclude_lengths(8)
+)
+definestation(LBG_LL_CANOPY_MID,"Terminus Canopy",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths({2, 4, 6, 8})
+	exclude_lengths(8)
+)
+
+definestation(LBG_LL_CANOPY_2_BACK_BOTH,"Terminus Canopy - Back",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_MID_BOTH,"Terminus Canopy - Middle",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_FRONT_BOTH,"Terminus Canopy - Front",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LBG_LL_CANOPY_2_BACK_BACK,"Terminus Canopy - Back/Back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_MID_R_BACK,"Terminus Canopy - Back/Back/Middle",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_MID_F_BACK,"Terminus Canopy - Back/Front/Middle",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_FRONT_BACK,"Terminus Canopy - Back/Front",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(LBG_LL_CANOPY_2_BACK_FRONT,"Terminus Canopy - Front/Back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_MID_R_FRONT,"Terminus Canopy - Front/Back/Middle",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_MID_F_FRONT,"Terminus Canopy - Front/Front/Middle",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LBG_LL_CANOPY_2_FRONT_FRONT,"Terminus Canopy - Front/Front",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(CHISLEHURST,"Southern Suburbs Station Building - Small style 1",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+	include_widths(2)
+	include_lengths(1)
+)
+definestation(HOP_BUILDING_FRONT,"LBSCR Suburban Station on Bridge (Front)",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths(2)
+	include_lengths(2)
+)
+definestation(NXG_BUILDING_FRONT,"LBSCR Suburban Station on Bridge (Front)",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	include_widths(2)
+	include_lengths(2)
+)
+definestation(SPEED_SIGN_FRONT,"SPEED SIGN FRONT",
+	class(WAYP)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SPEED_SIGN_BACK,"SPEED SIGN BACK",
+	class(WAYP)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(PIS,"Passenger Information Display",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(PIS_BACK,"Passenger Information Display - Back",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(PIS_FRONT,"Passenger Information Display - Front",
+	class(NSE0)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HOP_BUILDING_WAYP,"HOP BUILDING WAYP",
+	class(WAYP)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_WAYP,"FOOTBRIDGE WAYP",
+	class(WAYP)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(RDH_SHELTER,"Small waiting room",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(RDH_SHELTER_BACK,"Small waiting room - Back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(RDH_SHELTER_FRONT,"Small waiting room - Front",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_EFE,"End walled platform (Far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_EFE_BACK,"End walled platform (Far end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_EFE_FRONT,"End walled platform (Far end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_EFEF,"End walled platform with DOO monitors (Far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_EFEF_BACK,"End walled platform with DOO monitors (Far end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_EFEF_FRONT,"End walled platform with DOO monitors (Far end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_ENE,"End walled platform (Near end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_ENE_BACK,"End walled platform (Near end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_ENE_FRONT,"End walled platform (Near end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_ENEF,"End walled platform with DOO monitors (Near end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_ENEF_BACK,"End walled platform with DOO monitors (Near end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_ENEF_FRONT,"End walled platform with DOO monitors (Near end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_FE,"Walled platform (Far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_FE_BACK,"Walled platform (Far end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_FE_FRONT,"Walled platform (Far end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_FEL,"Walled platform with lamposts (Far end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_FEL_BACK,"Walled platform with lamposts (Far end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_FEL_FRONT,"Walled platform with lamposts (Far end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_NE,"Walled platform (Near end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_NE_BACK,"Walled platform (Near end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_NE_FRONT,"Walled platform (Near end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FENCE_NEL,"Walled platform with lamposts (Near end)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_NEL_BACK,"Walled platform with lamposts (Near end) - Back",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FENCE_NEL_FRONT,"Walled platform with lamposts (Near end) - Front",
+	class(NSEF)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(CLASP_2B,"Clasp style station - Back",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_BUILDING)
+	nontrack(TTD_BUILDING)
+	include_widths(2)
+	include_lengths(1)
+)
+definestation(CLASP_2F,"Clasp style station - Front",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_PLATFORM)
+	nontrack(TTD_PLATFORM)
+	include_widths(2)
+	include_lengths(1)
+)
+definestation(CLASP_BACK,"Clasp style station - Back",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_BUILDING)
+	nontrack(TTD_BUILDING)
+	include_widths(2)
+	include_lengths(1)
+)
+definestation(CLASP_FRONT,"Clasp style station - Front",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_PLATFORM)
+	nontrack(TTD_PLATFORM)
+	include_widths(2)
+	include_lengths(1)
+)
+
+definestation(SOUTHWARK_TOWER,"Southwark Tower",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+	include_widths(1)
+	include_lengths(1)
+)
+
+definestation(LBG_BUS_STATION,"London Bridge Bus Station",
+	class(NSE1)
+	callbacks({CB_LAYOUT,CB_AVAILABLE})
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+	include_widths(1)
+	include_lengths(1)
+)
+
+definestation(FOOTBRIDGE_LONGFIELD,"Open Footbridge",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FOOTBRIDGE_LONGFIELD_BACK,"Open Footbridge - Back",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+definestation(FOOTBRIDGE_LONGFIELD_FRONT,"Open Footbridge - Front",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR,"Covered Footbridge",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_BACK,"Covered Footbridge - Back",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_FRONT,"Covered Footbridge - Front",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_L,"Covered Footbridge (Light Brick)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_BACK_L,"Covered Footbridge (Light Brick) - Back",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_FRONT_L,"Covered Footbridge (Light Brick) - Front",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_S,"Covered Footbridge (Canopy)",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_BACK_S,"Covered Footbridge (Canopy) - Back",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_HOR_FRONT_S,"Covered Footbridge (Canopy) - Front",
+	class(NSEO)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SHELTER_HOR,"Brick Southern Canopy",
+	class(NSED)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SHELTER_HOR_BACK,"Brick Southern Canopy - Back",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SHELTER_HOR_FRONT,"Brick Southern Canopy - Front",
+	class(NSES)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(NON_TRACK,"Plain Non-Track Tile",
+	class(NSEN)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+)
+definestation(NON_TRACK_FENCE,"Plain Non-Track Tile (Auto-Fence)",
+	class(NSEN)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+)
+definestation(NON_TRACK_HORLEY,"Brick Southern Canopy - No Track",
+	class(NSEN)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+)
+definestation(FOOTBRIDGE_WAYP_HOR,"Footbridge",
+	class(WAYP)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(MARYLEBONE,"Small Terminus",
+	class(NSE1)
+	callbacks(CB_LAYOUT)
+	nopylons(TTD_ALLTILES)
+	nowires(TTD_ALLTILES)
+	nontrack(TTD_ALLTILES)
+)
+definestation(BASIC_BACK_OVERLAP,"Basic platform - Back",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(BASIC_FRONT_OVERLAP,"Basic platform - Front",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LAMPOSTS_BACK_OVERLAP,"Basic platform with red lamposts - Back",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(LAMPOSTS_FRONT_OVERLAP,"Basic platform with red lamposts - Front",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HITHER_GREEN_SHELTER_BACK_OVERLAP,"60s(?) style shelter - Back",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(HITHER_GREEN_SHELTER_FRONT_OVERLAP,"60s(?) style shelter - Front",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(PIS_BACK_OVERLAP,"Passenger Information Display - Back",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(PIS_FRONT_OVERLAP,"Passenger Information Display - Front",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SHELTER_HOR_BACK_OVERLAP,"Brick Southern Canopy - Back",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+definestation(SHELTER_HOR_FRONT_OVERLAP,"Brick Southern Canopy - Front",
+	class(NSEL)
+	callbacks(CB_LAYOUT)
+	pylons(TTD_ALLTILES)
+)
+
+classnames(BASIC, {ALL, "\B4 Double Platforms"})
+classnames(BASIC_BACK, {ALL, "\B4 Basic Platforms"})
+classnames(BASIC_RAMP_FAR_BACK, {ALL, "\B4 Platform Ends and Ramps"})
+classnames(FENCE_BACK, {ALL, "\B4 Fenced Platforms"})
+classnames(FOOTBRIDGE_ST_DENYS_BACK, {ALL, "\B4 Footbridges and Overpasses"})
+classnames(HITHER_GREEN_SHELTER_BACK, {ALL, "\B4 Shelters and Canopies"})
+classnames(CHISLEHURST, {ALL, "\B4 Station Buildings"})
+classnames(NON_TRACK, {ALL, "\B4 Non-Track Tiles"})
+classnames(BASIC_FRONT_OVERLAP, {ALL, "\B4 Overlapping Tiles"})
